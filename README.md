@@ -2,17 +2,25 @@
 
 1. **Chi tiết cánh tay robot:**
 
-![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.001.png)**1.1. Đế robot:**
+![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.001.png)
 
-![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.002.png)**1.2.link1:**
+**1.1. Đế robot:**
 
-![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.003.png)**1.3.link2:**
+![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.002.png)
 
-**1.4.link3:**
+**1.2.link1:**
+
+![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.003.png)
+
+**1.3.link2:**
 
 ![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.004.png)
 
-![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.005.png)**1.5.link4:**
+**1.4.link3:**
+
+![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.005.png)
+
+**1.5.link4:**
 
 1. **Cánh tay robot:**
 
