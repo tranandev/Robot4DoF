@@ -87,3 +87,47 @@ disp('ma tran D - phuong trinh dong hoc thuan')
 D = H_1_0*H_2_1*H_3_2*H_4_3*H_5_4*H_6_5;
 % pretty(simplify(collect(D)))
 pretty(D)
+n = 800;
+A = 1.995653;
+B = 1.27689;
+C = 8;
+r=linspace(0,1,n);
+theta=linspace(-2,20*pi,n);
+[R,THETA]=ndgrid(r,theta);
+% define the number of petals we want per cycle. Roses have 3 and a bit.
+petalNum=3.6;
+x = 1 - (1/2)*((5/4)*(1 - mod(petalNum*THETA, 2*pi)/pi).^2 - 1/4).^2;
+phi = (pi/2)*exp(-THETA/(C*pi));
+y = A*(R.^2).*(B*R - 1).^2.*sin(phi);
+R2 = x.*(R.*sin(phi) + y.*cos(phi));
+X=R2.*sin(THETA);
+Y=R2.*cos(THETA);
+Z=x.*(R.*cos(phi)-y.*sin(phi));
+% % define a red map for our rose colouring
+red_map=linspace(1,0.25,10)';
+red_map(:,2)=0;
+red_map(:,3)=0;
+clf
+surf(X,Y,Z,'LineStyle','none')
+view([-40.50 42.00])
+colormap(red_map)
+%ve thu bien thien cua diem tac dong cuoi khi cac khop chuyen dong
+clc;
+clear all;
+close all;
+%------------------------------------------------------------
+l1 =1;
+l2 =2; % (m) kich thuoc cua khau 1 va khau 2
+q3 = 0.5;
+n= 100;
+ for i = 1 : n
+q1 = linspace(-pi/2, pi/2, n);
+q2 = linspace(pi/9, -pi/9, n);
+q3 = linspace(0, q3, n);
+x = l1*cos(q1) + l2*cos(q1).*cos(q2) - l2*sin(q1).*sin(q2);
+y = l1*sin(q1) + l2*cos(q1).*sin(q2) + l2.*cos(q2).*sin(q1);
+z = -q3;
+plot3(x,y,z,'-o')
+grid on
+hold off
+ end
