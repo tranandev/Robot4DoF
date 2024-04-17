@@ -25,7 +25,8 @@
 
 
 
-1. **![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.007.jpeg)GIAO DIỆN NGƯỜI DÙNG**
+1. **GIAO DIỆN NGƯỜI DÙNG**
+   ![](Aspose.Words.64370153-3c84-4379-923f-d3ac0d6f90a9.007.jpeg)
 
 
 **
